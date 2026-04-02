@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import videoFile from "../../assets/video.mp4";
 
-const services = ["WEB DEVELOPMENT", "DIGITAL MARKETING", "App Development", "GRAPHIC DESIGNING", "VIDEO EDITING", "UI/UX DESIGN"]; // Add more services
+const services = ["WEB DEVELOPMENT", "DIGITAL MARKETING", "GRAPHIC DESIGNING", "VIDEO EDITING", "UI/UX DESIGN"]; // Add more services
 
 const HeroSection = () => {
     const [text, setText] = useState("");

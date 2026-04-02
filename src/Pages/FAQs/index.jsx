@@ -22,7 +22,7 @@ function Index() {
                                 {
                                     question: "1. What type of services do you offer?",
                                     answer:
-                                        "We provide expert services in web development, graphic design, digital marketing, cybersecurity, mobile app development, video editing, branding, and UX/UI design. Let us help bring your vision to life!"
+                                        "We provide expert services in web development, graphic design, digital marketing, cybersecurity, video editing, branding, and UX/UI design. Let us help bring your vision to life!"
                                 },
                                 {
                                     question: "Q2. How much cost to design a website?",

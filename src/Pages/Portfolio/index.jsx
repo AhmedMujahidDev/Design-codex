@@ -23,18 +23,18 @@ const Portfolio = () => {
         { id: 2, title: 'Dashboard', domain: 'Web Development', image: web2 },
         { id: 3, title: 'Restaurant Website', domain: 'Web Development', image: web3},
         { id: 4, title: 'Todo list', domain: 'Web Development', image: web4},
-        { id: 5, title: 'Facebook UI', domain: 'App Development', image: fluter2, },
-        { id: 6, title: 'Proporeal App', domain: 'App Development', image: fluter3 },
-        { id: 7, title: 'Nayapay UI Design', domain: 'App Development', image: fluter4 },
-        { id: 8, title: 'Mud Mask', domain: 'Digital Marketing', image: marketer1},
-        { id: 9, title: 'DR. D3', domain: 'Digital Marketing', image: marketer2 },
-        { id: 10, title: 'Hair Oil', domain: 'Digital Marketing', image: marketer3},
-        { id: 11, title: 'Yoga Pants', domain: 'Graphic Designing', image: design2 },
-        { id: 12, title: 'Style Hive', domain: 'Graphic Designing', image: design3 },
-        { id: 13, title: 'Black Friday', domain: 'Graphic Designing', image: design4},
+        // { id: 5, title: 'Facebook UI', domain: 'App Development', image: fluter2, },
+        // { id: 6, title: 'Proporeal App', domain: 'App Development', image: fluter3 },
+        // { id: 7, title: 'Nayapay UI Design', domain: 'App Development', image: fluter4 },
+        { id: 5, title: 'Mud Mask', domain: 'Digital Marketing', image: marketer1},
+        { id: 6, title: 'DR. D3', domain: 'Digital Marketing', image: marketer2 },
+        { id: 7, title: 'Hair Oil', domain: 'Digital Marketing', image: marketer3},
+        { id: 8, title: 'Yoga Pants', domain: 'Graphic Designing', image: design2 },
+        { id: 9, title: 'Style Hive', domain: 'Graphic Designing', image: design3 },
+        { id: 10, title: 'Black Friday', domain: 'Graphic Designing', image: design4},
     ];
 
-    const categories = ['All', 'Web Development', 'App Development', 'Digital Marketing', 'Graphic Designing'];
+    const categories = ['All', 'Web Development', 'Digital Marketing', 'Graphic Designing'];
 
     const filteredProjects = selectedCategory === 'All'
         ? project
