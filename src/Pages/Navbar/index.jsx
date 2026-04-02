@@ -49,13 +49,13 @@ const Navbar = () => {
         ))}
 
         <li className={`${isOpen ? "block" : "hidden"} lg:block`}>
-          <Link
+          {/* <Link
             to="/Academy"
             className="text-base text-white transition-colors hover:text-yellow-400"
             onClick={() => setIsOpen(false)}
           >
             Academy
-          </Link>
+          </Link> */}
         </li>
       </ul>
 

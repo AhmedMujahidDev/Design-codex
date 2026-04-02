@@ -46,15 +46,15 @@ const servicesData = [
         icon: "🎬",
         color: "#4caf50",
     },
-    {
-        title: "App Development",
-        description:
-            "Design Codex builds powerful Android, iOS, and cross-platform apps that bring your ideas to life. We combine innovative design with cutting-edge technology.",
-        details:
-            "At Design Codex, we craft innovative mobile apps for Android, iOS, and cross-platform needs.Our expert team ensures sleek design, flawless performance, and user-friendly experiences.Turn your ideas into powerful apps and grow your digital presence with us!",
-        icon: "📺",
-        color: "#4caf50",
-    },
+    // {
+    //     title: "App Development",
+    //     description:
+    //         "Design Codex builds powerful Android, iOS, and cross-platform apps that bring your ideas to life. We combine innovative design with cutting-edge technology.",
+    //     details:
+    //         "At Design Codex, we craft innovative mobile apps for Android, iOS, and cross-platform needs.Our expert team ensures sleek design, flawless performance, and user-friendly experiences.Turn your ideas into powerful apps and grow your digital presence with us!",
+    //     icon: "📺",
+    //     color: "#4caf50",
+    // },
 ];
 
 const Services = () => {
